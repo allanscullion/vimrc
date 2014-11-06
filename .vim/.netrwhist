@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/Allans'
+let g:netrw_dirhist_2='/Users/allanscullion/Dropbox/Development/Node.js'
+let g:netrw_dirhist_3='/Users/allanscullion/Dropbox/Development'
+let g:netrw_dirhist_4='/Users/allanscullion/Dropbox'
+let g:netrw_dirhist_5='/Users/allanscullion'
+let g:netrw_dirhist_6='/Users/allanscullion/Downloads/ipython-2.1.0/examples'
+let g:netrw_dirhist_7='/Users/allanscullion/.flickr'
+let g:netrw_dirhist_8='/Users/allanscullion/.vim/bundle/Vundle.vim'
