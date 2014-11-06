@@ -36,6 +36,7 @@ set smartcase
 set backspace=indent,eol,start
 set softtabstop=4
 set shiftwidth=4
+set shiftround
 set expandtab
 set hlsearch
 set background=dark
