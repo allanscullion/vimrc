@@ -28,7 +28,13 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this linesyntax enable
 "
 syntax on
-set tabstop=4
+set laststatus=2
+set ruler
+set autoindent
+set ignorecase
+set smartcase
+set backspace=indent,eol,start
+set softtabstop=4
 set shiftwidth=4
 set expandtab
 set hlsearch
