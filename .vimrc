@@ -5,7 +5,7 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
+" call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
@@ -28,9 +28,9 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this linesyntax enable
 "
 syntax on
-"filetype plugin on
-"filetype indent on
-"set autoindent
+filetype plugin on
+filetype indent on
+set autoindent
 set encoding=utf8
 set ffs=unix,dos,mac
 
@@ -48,11 +48,10 @@ set hlsearch
 set incsearch
 
 set backspace=indent,eol,start
-set softtabstop=4
+set tabstop=4
 set shiftwidth=4
-"set shiftround
+set shiftround
 set expandtab
-
 
 set background=dark
 set t_Co=256
