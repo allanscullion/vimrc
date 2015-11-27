@@ -57,6 +57,12 @@ set background=dark
 set t_Co=256
 colorscheme vividchalk
 
+:nmap <C-p> :tabprevious<cr>
+:nmap <C-n> :tabnext<cr>
+:map <C-p> :tabprevious<cr>
+:map <C-n> :tabnext<cr>
+
+
 """"""""""""""""""""""""""""""
 " => Visual mode related
 """"""""""""""""""""""""""""""
