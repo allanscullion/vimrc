@@ -55,7 +55,7 @@ set expandtab
 
 set background=dark
 set t_Co=256
-colorscheme vividchalk
+silent colorscheme vividchalk
 
 :nmap <C-p> :tabprevious<cr>
 :nmap <C-n> :tabnext<cr>
