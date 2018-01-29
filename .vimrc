@@ -65,6 +65,8 @@ silent colorscheme vividchalk
 :map <C-p> :tabprevious<cr>
 :map <C-n> :tabnext<cr>
 
+"Markdown settings
+let g:vim_markdown_folding_disabled = 1
 
 """"""""""""""""""""""""""""""
 " => Visual mode related
